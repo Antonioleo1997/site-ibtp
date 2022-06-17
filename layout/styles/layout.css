@@ -1,0 +1,1210 @@
+@charset "utf-8";
+
+@import url("fontawesome-4.6.3.min.css");
+@import url("custom.flexslider.css");
+@import url("framework.css");
+
+@font-face {
+     font-family: PadraoBold;
+     src: url('Poppins-Bold.ttf');
+}
+
+
+@font-face {
+     font-family: PadraoREgular;
+     src: url('Poppins-Regular.ttf');
+}
+
+.SlideBanner{
+	width: 100%;
+	height: 400px;
+	background-size: 100%;
+}
+
+.slide .img1{
+	background: url("images/slide1.png") no-repeat center top ;
+	background-size: 100%;
+}
+
+.slide .img2{
+	background: url("images/slide2.png") no-repeat center top ;
+	background-size: 100%;
+}
+
+.slide .img3{
+	background: url("images/slide3.png") no-repeat center top ;
+	background-size: 100%;
+}
+
+
+label[for="bt_menu"]{
+	padding: 5px;
+	backgroun-color:#fff;
+	color: #000000;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	height: 50px;
+}
+
+
+.espacomenu{
+	height: 80px;
+	
+
+	
+}
+
+.menuresponsivo{
+	display: none;
+	background-color: #093984;
+}
+
+#menucel{
+	background-color: #FF6347;
+	padding: 15px 15px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	display: none;
+	position: fixed;
+	z-index:10;
+
+}
+
+
+.botaobannervoltar{
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	background-color: #093984;
+	border-style:none; 
+	color: #fff; 
+	vertical-align:middle;
+	display:inline-block;
+	
+}
+
+.botaobannervoltar:hover{
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	background-color: #FF6347;
+	border-style:none; 
+	color: #fff; 
+	cursor: Pointer;
+	vertical-align:middle;
+	display:inline-block;
+}
+
+.botaobannerpassar{
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	background-color: #093984;
+	border-style:none; 
+	color: #fff; 
+	vertical-align:middle;
+	display:inline-block;
+}
+
+.botaobannerpassar:hover{
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	background-color: #FF6347;
+	border-style:none; 
+	color: #fff; 
+	cursor: Pointer;
+	vertical-align:middle;
+	display:inline-block;
+}
+
+.w3-animate-right{
+	position:relative;
+	animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+
+#top{
+	font-family: PadraoREgular;
+	background-color:#E6F1F8;
+}
+
+#centro{
+	width: 70%;
+	margin: 0 auto 0 auto;
+	display:table;
+	padding: 40px 0;
+}
+
+#centromenu{
+	width: 70%;
+	margin: 0 auto 0 auto;
+	display:table;
+	padding: 10px 0;
+}
+
+.menu{
+	background-color: #093984;
+	color:#FFF;
+	height: 80px;
+	position: fixed;
+	z-index:10;
+	width:100%;
+	box-shadow: 1px 1px 6px black;
+}
+
+
+
+#logomenu{
+	vertical-align:middle;
+	display:table-cell;
+	vertical-align:middle;
+	width: 6%;
+}
+
+.menu .btnred{
+	padding: 5px;
+	width: 15%;
+	margin: 10px 0 0 30px;
+	background-color:#FF6347;
+     	border-radius: 5px;
+    	box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+        0 2px 7px rgba(0, 0, 0, 0.2);
+     	color: #fff;
+    	display: block;
+	font-size: 12px;
+	display: inline-block;
+	vertical-align:middle;
+}
+
+.menu .btnred:hover{
+	padding: 5px;
+	width: 15%;
+	margin: 10px 0 0 30px;
+	background-color:#B22222;
+     	border-radius: 5px;
+    	box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+        0 2px 7px rgba(0, 0, 0, 0.2);
+     	color: #fff;
+    	display: block;
+	font-size: 12px;
+	display: inline-block;
+	vertical-align:middle;
+}
+
+
+
+.logo_menu{
+	vertical-align:middle;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.menulista {
+	list-style:none;
+	width: 80%;
+	display: inline-block;
+	margin: 0;
+	vertical-align:middle;
+
+}
+
+.menulista li a{
+	color:#FFF; 
+	text-decoration:none; 
+	display: inline-block;
+	float: right;
+	font-size: 15px;
+	margin: 10px 0 0 20px;
+}
+
+.menulista li a:hover{
+	color:#E31111; 
+	text-decoration:none; 
+	display: inline-block;
+	float: right;
+	font-size: 15px;
+	margin: 10px 0 0 20px;
+}
+
+
+.menulista li ul{
+	position:absolute;
+	top:60px;
+	left:530px;
+	background-color:#fff;
+	display:none;
+
+}
+
+.menulista li:hover ul, .menu li.over ul{display:block;
+}
+
+.testevocacional{
+	background-color:#093984;
+	width:100%;
+}
+
+.conteudotv {
+	width: 60%;
+	margin: 0 40px 0 0;
+	color: #fff;
+	vertical-align:middle;
+	display:inline-block;
+}
+
+h1{
+	font-size: 40px;
+	font-family: PadraoBold;
+	line-height: 1.1;
+	margin: 0;
+}
+
+
+h2{
+	font-size: 30px;
+	font-family: PadraoBold;
+	line-height: 1.1;
+	margin: 0;
+}
+
+h3{
+	font-family: PadraoBold;
+	font-size: 18px;
+	margin: 0;	
+}
+
+.conteudotv p{
+	font-size: 15px;
+	font-family: PadraoREgular;
+	margin: 0;
+}
+
+.botaotv{
+	width: 35%;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	vertical-align:middle;
+	display:inline-block;
+	
+}
+
+.espacolabel input{
+    color: #000000;
+}
+
+.btnred{
+	padding: 10px;
+	width: 80%;
+	margin: 0 auto 0 auto;
+	background-color:#FF6347;
+     	border-radius: 3px;
+    	box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+        0 2px 7px rgba(0, 0, 0, 0.2);
+     	color: #fff;
+    	display: block;
+	font-size: 20px;
+}
+
+
+.btnred:hover{
+	padding: 10px;
+	width: 80%;
+	margin: 0 auto 0 auto;
+	background-color:#B22222;
+     	border-radius: 3px;
+    	box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+        0 2px 7px rgba(0, 0, 0, 0.2);
+     	color: #fff;
+    	display: block;
+	font-size: 20px;
+	text-shadow:1px 1px 0 #000000;
+
+}
+
+
+.cursos{
+	color: #000000;
+	width: 100%;
+}
+
+
+.conteudocursos{
+	width:60%; 
+	vertical-align:middle; 
+	display:inline-block;
+	background-color: #FFF;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+p{
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.SlideCursos{
+	margin: 10px 0;
+}
+
+.bolsasestudo{
+	background-color:#093984;
+	color: #FFF;
+}
+
+#formbolsa input, .clear textarea{
+	width:100%; 
+	padding:1px; 
+	border:1px solid; 
+	color: #000000;	
+}
+
+.espacolabel{
+	width: 17%;
+	display:inline-block;
+	vertical-align:bottom; 
+	margin: 0 10px 0 0;
+}
+
+label span{
+	color:#FF0000; 
+	background-color:inherit;
+}
+
+.espacolabel input{
+	width: 100%;
+	color: #000000;
+}
+
+.espacoselect{
+	width: 20%;
+	display:inline-block;
+	vertical-align:bottom; 
+	margin: 0 10px 0 0;
+}
+
+.espacoselect select{
+	width: 100%;
+	color: #000000;
+	height: 27px;
+}
+
+.espacosubmit{
+	width: 20%;
+	display:inline-block;
+	vertical-align:middle; 
+}
+
+.espacosubmit input{
+	width: 100%;
+	padding: 10px;
+	margin: 0 auto 0 auto;
+	background-color:#FF6347;
+     	border-radius: 3px;
+    	box-shadow: 0 1px 0 rgba(0, 0, 0, .3),
+        0 2px 7px rgba(0, 0, 0, 0.2);
+     	color: #fff;
+	font-size: 20px;
+	vertical-align:bottom;
+	display:inline-block;
+}
+
+.espacosubmit input:hover{
+	width: 100%;
+	padding: 10px;
+	margin: 0 auto 0 auto;
+	background-color:#B22222;
+     	border-radius: 3px;
+    	box-shadow: 0 1px 0 rgba(0, 0, 0, .3),
+        0 2px 7px rgba(0, 0, 0, 0.2);
+     	color: #fff;
+	font-size: 20px;
+	text-shadow:1px 1px 0 #000000;
+	vertical-align:bottom;
+	display:inline-block;
+	cursor: Pointer;
+}
+
+.blog{
+	width: 100%;
+}
+
+.conteudoblog{
+	width: 30%;
+	border-radius: 10px;
+	display:inline-block;
+	box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+        0 2px 7px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin: 20px 25px 0 0;
+	background-color:#fff;
+}
+
+.conteudoblog img{
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+
+.conteudoblog h2{
+	font-size: 18px;
+	margin: 0;
+	text-align: center;
+	
+}
+
+.conteudoblog p{
+	font-size: 12px;
+	margin: 10px 0 10px 0;
+}
+
+.conteudoblog .btnred{
+	padding: 5px;
+	width: 80%;
+	margin: 0 auto 0 auto;
+	background-color:#FF6347;
+     	border-radius: 5px;
+    	box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+        0 2px 7px rgba(0, 0, 0, 0.2);
+     	color: #fff;
+    	display: block;
+	font-size: 12px;
+	text-shadow:1px 1px 0 #000000;
+}
+
+
+.conteudoblog .btnred:hover{
+	padding: 5px;
+	width: 80%;
+	margin: 0 auto 0 auto;
+	background-color:#B22222;
+     	border-radius: 5px;
+    	box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+        0 2px 7px rgba(0, 0, 0, 0.2);
+     	color: #fff;
+    	display: block;
+	font-size: 12px;
+	text-shadow:1px 1px 0 #000000;
+
+}
+
+.rodape{
+	background-color:#093984;
+}
+
+.logorodape{
+	width: 18%;
+	display:inline-block;
+	vertical-align:middle;
+	margin: 0 60px 0 0;
+}
+
+.logorodape img{
+	width: 100%;
+
+}
+
+.redesocial{
+	margin: 0 45px;
+	width: 30%;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.areaaluno{
+	width: 35%;
+	display:inline-block;
+	vertical-align:top;
+}
+
+
+
+.areaaluno .btnred{
+	margin: 10px auto 10px auto;
+}
+
+.areaaluno p{	
+	display:inline-block;
+	vertical-align:middle;
+	color: #fff;
+}
+
+.areaaluno img{	
+	display:inline-block;
+	vertical-align:middle;
+	width: 40%;
+}
+
+.redesocial img{
+	width: 16%;
+	margin: 10px 22px 0 0;
+	
+}
+
+.rodape h3{
+	color: #fff;
+}
+
+.menurodape{
+	margin: 40px 0 0 0;
+	width: 25%;
+	display:inline-block;
+	vertical-align:top;
+}
+.menurodape li{
+	color:#fff; 
+	text-decoration:none; 
+	font-size: 12px;
+	display: block;
+	line-height: 1.5;
+}
+
+.menurodape ul{
+	margin: 0;
+	padding: 0;
+}
+
+.submenu a{
+	color:#000000;
+}
+
+.submenu a:hover{
+	color:#000000;
+	text-decoration: underline;
+}
+
+.submenu{
+}
+
+
+.humanizacao{
+	background: #0b182f;
+	color: #fff;
+}
+
+.benefhumanizar{
+	width: 30%;
+	text-align: center;
+	margin: 40px 31px 0px 0;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.benefhumanizar img{
+	width: 40%;
+}
+
+.benefhumanizar h2{
+	margin: 10px 0;
+}
+
+.valores nav{
+	width: 30%;
+	text-align: center;
+	margin: 0px 31px 0px 0;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.valores img{
+	width: 50%;
+}
+
+.valores{
+}
+
+.professores{
+	background: #0b182f;
+	color: #fff;
+}
+
+.professores nav {
+	background-color: #fff;
+	color: #000000;
+	border-radius: 10px;
+	width: 30%;
+	display:inline-block;
+	vertical-align:top;
+	margin: 0 25px 0 0;
+	padding: 10px;
+}
+
+.professorescel{
+	display: none;
+}
+
+
+.professores img {
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+
+.professores h2 {
+	text-align: center;
+	
+}
+
+.trabalheaqui{
+	padding: 0;
+	margin: 0 0 0 auto;
+}
+
+.trabalheaqui img{
+	width: 50%;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.trabalheaqui nav{
+	padding: 40px 0 40px 40px;
+	display:inline-block;
+	width: 40%;
+	vertical-align:top;
+}
+
+.trabalheaqui .btnred{
+	margin: 40px 0 40px 0;
+	width: 100%;
+}
+
+.curso nav{
+	width: 70%;
+	display: inline-block;
+	margin: 20px 0 0 0;
+	padding: 0 0 0 20px;
+	vertical-align:top;
+	line-height: 1.1
+}
+
+.curso img{
+	width: 30%;
+	margin: 20px 0 0 0;
+	border-radius: 20px;
+	display: inline-block;
+	vertical-align:top;
+}
+
+.curso{	
+	background-color: #093984;
+	color: #fff;
+}
+
+.curso2{	
+	background-color:#E6F1F8;
+	color: #000000;
+}
+
+.curso2 img{
+	width: 30%;
+	margin: 20px 0 0 0;
+	border-radius: 20px;
+	display: inline-block;
+	vertical-align:top;
+}
+
+.curso2 nav{
+	width: 70%;
+	display: inline-block;
+	margin: 20px 0 0 0;
+	padding: 0 20px 0 0;
+	vertical-align:top;
+	line-height: 1.1
+}
+
+.contatos{
+	background-color: #093984;	
+	color: #fff;
+}
+
+
+.contatos img {
+	vertical-align:bottom;
+	display: inline-block;
+	margin: 10px 10px 0 0;
+}
+.contatos a{
+	text-decoration: none;
+	color: #fff;
+	vertical-align:bottom;
+	margin: 0;
+}
+
+.contatos p{
+	display: inline-block;
+	vertical-align:bottom;
+	margin: 0;
+}
+
+.contatos a:hover{
+	text-decoration: underline;
+}
+
+
+.contatos nav{
+	width: 60%;
+	display: inline-block;
+	vertical-align:top;
+	padding: 0 20px 0 0;
+}
+
+.formcontato{
+	width: 40%;
+	display: inline-block;
+	vertical-align:top;
+}
+
+.formcontato inputform{
+	width: 100%;
+	
+}
+
+.formcontato input{
+	color: #000000;
+	
+}
+
+.inputform input {
+	width: 100%;
+	height: 40px;
+	color: #000000;
+}
+
+.inputform select{
+	width: 100%;
+	height: 40px;
+	color: #000000;
+}
+
+.inputform textarea{
+	width: 100%;
+	height: 60px;
+	color: #000000;
+	
+}
+
+
+.submitform input{
+	width: 100%;
+	padding: 10px;
+	margin: 20px auto 0 auto;
+	background-color:#FF6347;
+     	border-radius: 3px;
+    	box-shadow: 0 1px 0 rgba(0, 0, 0, .3),
+        0 2px 7px rgba(0, 0, 0, 0.2);
+     	color: #fff;
+	font-size: 20px;
+	vertical-align:bottom;
+	display:inline-block;
+}
+
+.submitform input:hover{
+	width: 100%;
+	padding: 10px;
+	margin: 20px auto 0 auto;
+	background-color:#B22222;
+     	border-radius: 3px;
+    	box-shadow: 0 1px 0 rgba(0, 0, 0, .3),
+        0 2px 7px rgba(0, 0, 0, 0.2);
+     	color: #fff;
+	font-size: 20px;
+	text-shadow:1px 1px 0 #000000;
+	vertical-align:bottom;
+	display:inline-block;
+	cursor: Pointer;
+}
+
+
+
+.testevocacionalform{
+	background-color:#E6F1F8;
+	width:100%;
+	color: black;
+}
+
+.testevocacionalform .conteudotv{
+	color: #000000;
+}
+
+
+.menuresponsivo a{
+	width: 40%;
+	display: inline-block;
+	font-size: 14px;
+	padding: 10px;
+	margin: 0 0 0 50px;
+
+}
+
+.curso2 figure{
+	display: none;
+}
+
+.menuresponsivo a:hover{
+	width: 40%;
+	display: inline-block;
+	font-size: 14px;
+	padding: 10px;
+	margin: 0 0 0 50px;
+
+}
+
+.imgcursos{
+	width: 30%;
+}
+
+.menuresponsivo img{
+	width: 20%;	
+	display: inline-block;
+	margin: 0 0 0 50px;
+}
+
+.blogcel{
+	display:none;
+}
+
+
+.inputgrande{
+	width: 40%;
+	vertical-align:bottom;
+	display:inline-block;
+}
+
+.inputpequeno{
+	width: 10%;
+	vertical-align:bottom;
+	display:inline-block;
+}
+
+.inputmedio{
+	width: 20%;
+	vertical-align:bottom;
+	display:inline-block;
+}
+
+.cadcurriculo {
+	background-color:#0b182f;
+	color:#fff;
+}
+
+
+.formcurriculo input{
+	width: 100%;
+	color: #000000;
+}
+
+.formcurriculo textarea{
+	width: 100%;
+	height: 60px;
+	color: #000000;
+}
+
+.formcurriculo .textarea{
+	width: 100%;
+}
+
+
+.formcurriculo select{
+	width: 100%;
+	color: #000000;
+}
+
+.formcurriculo h2{
+	font-size: 25px;
+}
+
+
+.formcurriculo nav{
+	margin: 40px 0 40px 0;
+}
+
+
+@media(max-width: 800px) {
+	.espacomenu{
+		display: inline;
+	}
+
+	.menu{
+		display: none;
+		width: 60%;
+		padding: 5px;
+		height: 300px;
+		
+	}
+
+	.menu ul{
+		width: 100%;
+		padding: 5px;
+		text-align: right;
+		
+	}
+
+	.menu .logomenu{
+		display: none;
+		
+	}
+
+	.menu img{
+		display: none;
+		
+	}
+
+	.menu .btnred{
+		display: none;
+		
+	}
+	
+
+
+	#menucel{
+		display: block;
+	}
+
+	.menuresponsivo{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	}
+	
+	#centro{
+	width: 80%;
+	padding: 10px 0;
+}
+	.testevocacional{
+	padding: 10px 0;
+}
+
+	h1{
+	font-size: 25px;
+}
+
+	.conteudotv{
+	width: 100%;
+	margin: 0 0 5px 0;
+}
+	.botaotv{
+	width: 100%;
+}
+
+	.botaotv a{
+	width: 100%;
+}
+
+	.imgcursos{
+	width: 90%;
+}
+
+	.conteudocursos{
+	width:100%;
+}
+
+	.botaobannervoltar{
+	width: 30px;
+	height: 30px;
+	font-size: 15px;
+}
+	.botaobannerpassar{
+	width: 30px;
+	height: 30px;
+	font-size: 15px;
+}
+
+	.botaobannervoltar:hover{
+	width: 30px;
+	height: 30px;
+	font-size: 15px;
+}
+	.botaobannerpassar:hover{
+	width: 30px;
+	height: 30px;
+	font-size: 15px;
+}
+	
+	.blog{
+		display: none;
+}
+
+	.blogcel{
+		display: block;
+	}
+
+	.SlideBlogcel img{
+		width: 100%;	
+		margin: 10px 0 10px 0;
+}
+	.SlideBlogcel h2{
+		font-size: 20px;
+		
+}
+	.formbolsa {
+		width: 100%;
+}
+	.formbolsa .espacolabel{
+		width: 32%;
+		margin: 0 1px 0 0;
+}
+	.formbolsa .espacosubmit{
+		width: 100%;
+		margin: 5px 0 0 0;
+}
+	.logorodape{
+		width: 100%;
+		text-align: center;
+}
+	.logorodape img{
+		width: 30%;
+}
+	.redesocial{
+		width: 100%;
+		margin: 5px 0;
+}
+	.areaaluno{
+		width: 100%;
+}
+	.menurodape{
+		display: none;
+}
+	.slide .img1{
+	background: url("images/slide1.png") no-repeat center top ;
+	background-size: 150%;
+}
+
+	.slide .img2{
+	background: url("images/slide1.png") no-repeat center top ;
+	background-size: 150%;
+}
+
+	.slide .img3{
+	background: url("images/slide1.png") no-repeat center top ;
+	background-size: 150%;
+}
+
+	.SlideBanner{
+		height: 150px;
+}
+	.benefhumanizar{
+		width: 100%;
+}
+	.valores nav{
+		width: 100%;
+
+}
+	.professores{
+		display:none;
+}
+	.professorescel{
+		display:block;
+		background-color: #0b182f;
+		color: #fff;
+}
+	.SlideProfessorescel img{
+		width: 100%;
+}
+	.SlideProfessorescel{
+		background-color: #fff;
+		color: #000000;
+		border-radius: 10px;
+		width: 100%;
+		display:inline-block;
+		vertical-align:top;
+		margin: 0 25px 0 0;
+		padding: 10px;
+}
+	.SlideProfessorescel h2{
+		font-size: 20px;
+		text-align: center;
+}
+	.trabalheaqui img{
+		display:none;
+}
+	.trabalheaqui nav{
+		width: 100%;
+		margin: 0;
+		padding: 20px;
+}
+	.curso h2{
+		font-size: 20px;
+}
+	.curso img{
+		width: 70%;
+		margin: 10px 0 0;
+}
+	.curso nav{
+		width: 100%;
+		padding: 0;
+		text-align: justify;
+}
+	.curso{
+		text-align: center;
+}
+
+	.curso2 h2{
+		font-size: 20px;
+}
+	.curso2 img{
+		width: 70%;
+}
+
+	.curso2 .imgpc{
+		display: none;
+}
+
+	.curso2 nav{
+		width: 100%;
+		padding: 0;
+		text-align: justify;
+}
+	.curso2{
+		text-align: center;
+}
+	.curso2 figure{
+	display: block;
+}
+	.contatos nav{
+	width: 100%;
+	padding: 0;
+}
+
+	.contatos iframe{
+	height: 200px;
+}
+	.formcontato{
+	width: 100%;
+	margin: 10px 0 0 0;
+}
+	.btnred{
+	font-size: 15px;
+}
+	.espacosubmit input{
+	font-size: 15px;
+}
+	.espacosubmit input:hover{
+	font-size: 15px;
+}
+	.espacoselect{
+	width: 100%;
+}
+
+.inputgrande{
+	width: 100%;
+	vertical-align:bottom;
+	display:inline-block;
+}
+
+.inputpequeno{
+	width: 15%;
+	vertical-align:bottom;
+	display:inline-block;
+}
+
+.inputmedio{
+	width: 80%;
+	vertical-align:bottom;
+	display:inline-block;
+}
+
+.formcurriculo label{
+	font-size: 12px;
+}
+}
+
+
